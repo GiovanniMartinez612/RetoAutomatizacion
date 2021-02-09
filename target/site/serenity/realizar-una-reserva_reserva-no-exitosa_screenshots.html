@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Proyecto base para Automatización</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="feature_forms_sl_realizar_una_reserva.html">Realizar Una Reserva</a></span>
+                > <span class="truncate-60"><a
+                    href="realizar-una-reserva_reserva-no-exitosa.html">Reserva no exitosa </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="requirement_type_feature.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="requirement_type_theme.html"><i class="fa fa-comments-o"></i> Themes</a>
+        </li>
+        <li >
+            <a href="requirement_type_capability.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-02-2021 13:30</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Realizar Una Reserva </span>
+                                    <span class="badge tag-badge">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="theme_reserva.html">Reserva
+                                    (theme)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="tag_casonoexitoso.html">Casonoexitoso
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="capability_reserva_sl_forms.html">Forms
+                                    (capability)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="tag_reserva.html">Reserva
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-3x' title='ERROR'></i></span>
+                            <span class="test-case-title">
+                                <span class="error-color">Reserva No Exitosa
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+                <div class="panel-heading"><span class='error-caption ellipsis'>ERROR: Web driver exception: The following e...</span></div>
+                <div class="panel-body">
+                    <a href="pagesource7802347928212617990.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_a135eb557529c8602780664e29a46792ebb4600994204d7bc5944d77a4c9e41b.png" title="Given Ingresar al aplicativo" width="960"/>
+                <img src="scaled_5fad66439777cfec2efbbddc23ce010ea954007bb303ac0dc15d980149276cc9.png" title="Browser" width="960"/>
+                <img src="scaled_57f3ae286b13437238d24ab234f0a208eca271cca657a4a6e86830e186e756e8.png" title="When Seleccionar boton Hotels" width="960"/>
+                <img src="scaled_42fe249596fe2e6789605afdc8f5515aa52b2bd06c89618fc1450b20e79e9548.png" title="Seleccionar boton hotels" width="960"/>
+                <img src="scaled_0d5279e783919e27ef17265208b3583839adb7b819fbf193be9cfa9c6f467a36.png" title="And Seleccionar Destination &quot;Jumeirah Beach Hotel, Dubai&quot;" width="960"/>
+                <img src="0d5279e783919e27ef17265208b3583839adb7b819fbf193be9cfa9c6f467a36.png" title="Seleccionar destination: Jumeirah Beach Hotel, Dubai" width="960"/>
+                <img src="scaled_265473754209936ccf209cb3422c669ba65a05ff7332bd9726a6682c35956a4a.png" title="And Seleccionar fecha Check in &quot;14/02/2021&quot;" width="960"/>
+                <img src="scaled_3880e37d4dbbd3521a924b1b25b35efebde7e26514bfe64e08c41bfde49ac075.png" title="Seleccionar fecha check in: 14/02/2021" width="960"/>
+                <img src="scaled_2530ee2c9e9bc171f443d523be6b333cba6d486c6a4a0b14fc1333674dda2ca2.png" title="And Seleccionar fecha Check out &quot;19/02/2021&quot;" width="960"/>
+                <img src="scaled_f20665c8bfdbc4e6d01dab1c27316feed17de967d5a897d4c367d829877336aa.png" title="Seleccionar fecha check out: 19/02/2021" width="960"/>
+                <img src="scaled_3ce3d2b18c7494456cd2d0a142bc0b203a58a65928c975eb5398b08d79c08e32.png" title="And Seleccionar numero Adults" width="960"/>
+                <img src="2530ee2c9e9bc171f443d523be6b333cba6d486c6a4a0b14fc1333674dda2ca2.png" title="Seleccionar numero adults" width="960"/>
+                <img src="2530ee2c9e9bc171f443d523be6b333cba6d486c6a4a0b14fc1333674dda2ca2.png" title="And Seleccionar numero Child" width="960"/>
+                <img src="2530ee2c9e9bc171f443d523be6b333cba6d486c6a4a0b14fc1333674dda2ca2.png" title="Seleccionar numero child" width="960"/>
+                <img src="scaled_a8c949811ac61a99f7633e2b5a1257f840e38ab552396d0477e67a4e6b6592eb.png" title="And Dar clic en el boton Search" width="960"/>
+                <img src="scaled_f3a25043397bcd96b677ae0e237295eec32d8fbe8b2021a91b49ec0ad736e86d.png" title="Clic boton search" width="960"/>
+                <img src="scaled_853a7d5cc30b51fd8dcf3c79c2faa8ac651a9b12897d8bcbdba24575b9e54f6a.png" title="And Seleccionar un cuarto dando clic en Select Room" width="960"/>
+                <img src="853a7d5cc30b51fd8dcf3c79c2faa8ac651a9b12897d8bcbdba24575b9e54f6a.png" title="Clic select room" width="960"/>
+                <img src="scaled_d1fe3963e0143c598a873085e00d337cc621876de4e7fa9cded6731ffed8bb4a.png" title="And Dar clic en el boton Book Now" width="960"/>
+                <img src="scaled_668ddc6d606f3215c68e3c22aeaa794aa32b3c7183a63c01be00e6c870bd4a69.png" title="Clic boton book now" width="960"/>
+                <img src="scaled_97b1655cf8a31e34cce78f9bba1c903b410cba7cd8254acacb2fba0f4d87315b.png" title="And Ingresar First Name &quot;Prueba&quot;" width="960"/>
+                <img src="scaled_c07c798a19b47efb27ebff982ff78d02549ce284545f8612c21387a05e83c35a.png" title="Ingresar first name: Prueba" width="960"/>
+                <img src="scaled_1735972164e68379d6081bfe009a11665587e49e16b36b69deb2c7c3856e6b56.png" title="And Ingresar Last Name &quot;Auto&quot;" width="960"/>
+                <img src="scaled_678689d182eac237cf6adc67aa7259a568637c59e5e3300af73bb1ced8c0d0b3.png" title="Ingresar last name: Auto" width="960"/>
+                <img src="scaled_cd2c021349d4465dc27023851afbb6cc79fc93da555c0d0fd6e27b9615de7ee5.png" title="And Ingresar Email &quot;prueba@auto.com&quot;" width="960"/>
+                <img src="scaled_72b540a043841a9b44ebfca954bf1b558250c82ab7ec970b5dd7736cf6b7091c.png" title="Ingresar email: prueba@auto.com" width="960"/>
+                <img src="scaled_020ea8ca56c672168ad27ef64b2dbedd6ca854720290c7f0137da999ea5dcf53.png" title="And Ingresar Confirm Email &quot;prueba@auto.com&quot;" width="960"/>
+                <img src="020ea8ca56c672168ad27ef64b2dbedd6ca854720290c7f0137da999ea5dcf53.png" title="Ingresar confirm email: prueba@auto.com" width="960"/>
+                <img src="scaled_d0bcdd6a67b27abe2ad3c6d30f519a9e3665515ed3df243d10a560b60eebda77.png" title="And Ingresar Contact Number &quot;7414141&quot;" width="960"/>
+                <img src="scaled_5e63eb248c8d79bdc4e4d51c7a1092bd887398a285f921f7627a6297bb8324f3.png" title="Ingresar contact number: 7414141" width="960"/>
+                <img src="scaled_1d37972ebe34d6201c46a37100c959ebfcce6b11920a68842d45a91fbd1625fb.png" title="And Ingresar Address &quot;Calle 7 N 12 a - 56&quot;" width="960"/>
+                <img src="scaled_af449f054819a9edba5403eb0e4e997c1df691012875aa2e7e698764afc9578f.png" title="Ingresar address: Calle 7 N 12 a - 56" width="960"/>
+                <img src="scaled_eef5a330ab50e46b773dc95732042f66f49e7375d31f35c64ed84db9ad23fa70.png" title="And Seleccionar Country &quot;Colombia&quot;" width="960"/>
+                <img src="eef5a330ab50e46b773dc95732042f66f49e7375d31f35c64ed84db9ad23fa70.png" title="Seleccionar country: Colombia" width="960"/>
+                <img src="scaled_4178c982949a2f0b90b5256ab354b704c48e5b07f58a0cc800c42ce906a0f84c.png" title="And Dar clic en Sign In" width="960"/>
+                <img src="scaled_2b948f3d43e15e0f44b77efc28e9a5ae4393a0bae0f6bab5f3625b2bf6db69cb.png" title="Clic boton sign in" width="960"/>
+                <img src="scaled_4191d35430ab563c846ee8bfd97e211e8fc539259459a1759aa40835b3cab37d.png" title="And Ingresar Email Sign In &quot;correo@sign.co&quot;" width="960"/>
+                <img src="scaled_bb07bf1f2ce07cdb78b0509c247f1c8464fc0c46d6f359faec82d306b6dde8e1.png" title="Ingresar email sign in: correo@sign.co" width="960"/>
+                <img src="scaled_1abf2f3c0ebcad5fdd334fce62894950a9c19ae96512ccb22e7a496b6f27d315.png" title="And Ingresar Password Sign In &quot;123456&quot;" width="960"/>
+                <img src="scaled_7fe824785c982d8c46d068b0c16512a17d30eb21bc7fb88057d623a150ef2e8c.png" title="Ingresar password sign in: 123456" width="960"/>
+                <img src="scaled_e7bd3b1c6894dd5f25584342b9a55b246906784e622218da6649d2cbfb982bc7.png" title="And Ingresar Coupon Code &quot;121213&quot;" width="960"/>
+                <img src="scaled_e4bb99c139c6c17e462b226da7fe2d2f2ab47ef521965e7e7b54467fd8d4a79c.png" title="Ingresar coupon code: 121213" width="960"/>
+                <img src="scaled_605946d9493cd786176539d3d315dce5befde82d323505342ceb9ebbeea16f4c.png" title="And Dar clic en el boton Apply Coupon" width="960"/>
+                <img src="605946d9493cd786176539d3d315dce5befde82d323505342ceb9ebbeea16f4c.png" title="Clic boton apply coupon" width="960"/>
+                <img src="605946d9493cd786176539d3d315dce5befde82d323505342ceb9ebbeea16f4c.png" title="And Dar clic en el boton Aceptar" width="960"/>
+                <img src="605946d9493cd786176539d3d315dce5befde82d323505342ceb9ebbeea16f4c.png" title="Clic boton aceptar" width="960"/>
+                <img src="scaled_cd62aff3ff64742abb7284a0d81af9823d8242b1d369d25a0e4ee791f2dd5eec.png" title="Clic boton confirm this booking: <span class='error-color'>ERROR</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.5.1</span>
+</div>
+</body>
+</html>
